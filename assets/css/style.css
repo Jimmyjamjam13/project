@@ -98,3 +98,9 @@ right: 150px;
 
 position: absolute;
 }
+
+/* team table and text */
+
+#table {
+    border: 5px solid black;
+  }
