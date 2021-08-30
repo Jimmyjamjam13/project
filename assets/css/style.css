@@ -18,7 +18,7 @@ h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: white;
+    color: red;
 }
 
 h3{
@@ -57,10 +57,6 @@ h3{
     border-bottom: 1px solid red;
 }
 
-.active {
-    border-bottom: 1px solid black;
-}
-
 /* cover image and cover text */
  
 #cover-outer {
@@ -85,11 +81,11 @@ font-family: Oswald, sans-serif;
 text-transform: uppercase;
 letter-spacing: 4px;
 
-width: 400px;
+width: 450px;
 height: 300px;
 
 padding-top: 40px;
-padding-left: 10px;
+padding-left: 30px;
 
 background-color: red;
 
@@ -104,7 +100,8 @@ position: absolute;
 #table {
     text-align: center;
     color: black;
-    background:url('../css/images/') no-repeat center center ;
+    margin:  auto;
+    padding: 50px 0 100px 10px;
 }
 
 #team-table {
@@ -118,21 +115,22 @@ table, td, tr {
   }
   
   tr:hover {background-color: red;}
+  
   /* Form */
 
   .form-section {
-    background: url('../css/images/') no-repeat center center;
+      background-image: url('../css/images/image-20160215-22587-1gaahhp.jpg');
     background-size: cover;
     background-position: center;
     height: 900px;
 }
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 200px 10% 0 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: red;
     max-width: 400px;
-    position :relative;
-    margin: 0 auto;
+    position :absolute;
+    left: 700px;
     padding: 30px;
 }
 .signup-form h2 {
@@ -164,4 +162,126 @@ table, td, tr {
 .join-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
+}
+
+
+
+ooter {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos>img {
+    width: 100%;
+}
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #times>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/*  For medium screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        padding: 0 20px;
+
+    }
+    #photos {
+        column-count: 3;
+        text-align: center;
+    }
+}
+/* For small screen sizes 800px and down */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
 }
