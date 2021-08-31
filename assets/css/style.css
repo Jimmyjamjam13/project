@@ -233,6 +233,7 @@ footer {
     text-align: center;
     margin: 900px 0;
     font-size: 180%;
+    position: fixed;
 }
 
 .social-networks {
