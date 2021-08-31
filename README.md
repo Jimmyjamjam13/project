@@ -32,5 +32,55 @@ It has a background image of a wall of liverpool fans cheering and in the center
 
 ![Screenshot (9)](https://user-images.githubusercontent.com/87779486/131546805-d34119e8-d4e1-43dc-9dd3-3d4a258bcf6c.png)
 
+## Contact us 
+This encourages the user to get in contact by phone or email.  
+The contacts section includes social media icons the user can use to find the club online.
+the contacts section is valuable to the user because it give them the ability to get information that not available on the website that they may want to know.
+
+![Screenshot (15)](https://user-images.githubusercontent.com/87779486/131556639-b84fa2d2-a7de-451a-8925-f1951355d43c.png)
+
+### Testing
+I tested this page on different browsers:chrome,safari and edge.  
+I confirmed that the navigation, header, current events, sign up and contact us text is all readable and easy to understand.  
+I confirmed that the form works: requires entries in every field, will only accept email address in the email field and the submit button works.
+
+### Bugs
+#### Unfixed
+The page does not look good or is not very readable in size smaller then 950px.  
+
+#### Fixed 
+When i deployed my file i saw the style code for the contact us section was not working because it was targeting the wrong id.  
+
+### Validator Testing 
+
+## HTML  
+No errors were retured when passing through the offical W3c validator.  
+
+## CSS  
+There are 2 warnings and 2 errors found with the official (Jigsaw) validator.
+
+![Screenshot (17)](https://user-images.githubusercontent.com/87779486/131556753-9e4a25bd-70a6-42c1-933f-a9f324785e01.png)
+
+## Accessibility 
+I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+
+![Screenshot (19)](https://user-images.githubusercontent.com/87779486/131557100-b4117e9f-5ef9-4206-8671-d0d315997519.png)
+
+## Deployment  
+The site was deployed to github pages.The steps to deploy are the following:  
+In the github repository, navigate to the setting tab.  
+From the source section drop-down menu, select the main branch.  
+Once the main branch has been seleted, the page gives you an accessible link.  
+
+## Credits
+### Content
+The code to make the social media links was taken from the CI Love running Project.  
+Both the README.md structure and page structure were heavly influenced by the CI Love running Project and template provided underneath the sample project README.md.  
+The icons across the page were taken from Font Awesome.  
+
+## Media
+The photos used on the homepage are used from [pexels.](https://www.pexels.com/)  
+The images used for the signup page were taken from google image with the free to share and use filter on.
+
 
 
