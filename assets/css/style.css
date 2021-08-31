@@ -229,6 +229,12 @@ footer {
     height: 150px;
 }
 
+#contacts {
+    text-align: center;
+    font-size: 50%;
+}
+
+
 .social-networks {
     text-align: center;
 }
