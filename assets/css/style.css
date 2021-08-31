@@ -206,7 +206,7 @@ hr {
     border-radius: 2px;
 }
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: black;
 }
 .join-button {
     margin-top: 20px;
@@ -214,7 +214,7 @@ hr {
     padding: 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: black;
     color: #fafafa;
     display: block;
 }
@@ -223,7 +223,7 @@ hr {
     color: #f16c6b;
 }
 
-
+/* footer */
 
 footer {
     height: 150px;
@@ -244,24 +244,11 @@ footer {
     color: #3a3a3a;
 }
 
-/* gallery */
-
-#photos {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
-}
-
-#photos>img {
-    width: 100%;
-}
-
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    #club-ethos {
+    #announcements {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -272,21 +259,15 @@ footer {
         margin: 0;
     }
 
-    #left-about,
-    #right-about {
+    #left-top {
         width: 100%;
         float: left;
         padding: 0;
     }
 
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
+    
 
-    #times>div {
+    #fixtures>div {
         width: 100%;
         clear: both;
         height: 150px;
@@ -314,33 +295,22 @@ footer {
         left: 0;
     }
 
-    #club-ethos {
+    #announcements {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    .left-about-heading, .right-about-heading {
+    .top-heading {
         width: inherit;
     }
 
-    .left-about-heading h2, .right-about-heading h2 {
+    .top-heading h2 {
         width: 100%;
         text-align: center;
     }
 
-    .left-about-heading p, .right-about-heading p {
+    .top-heading p {
         padding: 0 20px;
-
-    }
-    #photos {
-        column-count: 3;
-        text-align: center;
-    }
-}
-/* For small screen sizes 800px and down */
-@media screen and (max-width: 800px) {
-    #photos {
-        column-count: 2;
     }
 }
