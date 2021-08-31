@@ -46,7 +46,8 @@ I confirmed that the form works: requires entries in every field, will only acce
 
 ### Bugs
 #### Unfixed
-The page does not look good or is not very readable in size smaller then 950px.  
+The page does not look good or is not very readable in size smaller then 950px. 
+The contact section page need the margin and padding fixed. 
 
 #### Fixed 
 When i deployed my file i saw the style code for the contact us section was not working because it was targeting the wrong id.  
