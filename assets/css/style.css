@@ -231,10 +231,9 @@ footer {
 
 #contacts {
     text-align: center;
-    font-size: 50%;
-    margin: 0 auto;
+    margin: 20px 0;
+    font-size: 180%;
 }
-
 
 .social-networks {
     text-align: center;
