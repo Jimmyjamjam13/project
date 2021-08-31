@@ -138,13 +138,15 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-    size: 50%;
+    font-size:  20px;
 }
 
 #welcome {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
+    text-decoration: underline;     
+    text-decoration-color: black;  
 }
 
   #fixtures {
