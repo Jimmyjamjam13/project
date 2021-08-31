@@ -100,13 +100,20 @@ position: absolute;
 #table {
     text-align: center;
     color: black;
-    margin:  auto;
-    padding: 50px 0 100px 10px;
+    margin: 0 auto;
+    padding: 50px 0 70px 30px;
 }
 
+#table-heading {
+    width: 700px;
+    height: 200px;
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+}
 #team-table {
-    margin: 0 auto;
-    width: 70%;
+    margin: 0 0 0 1000px;
+    width: 40%;
 }
 
 table, td, tr {
@@ -115,6 +122,33 @@ table, td, tr {
   }
   
   tr:hover {background-color: red;}
+
+
+  #fixtures {
+    background-image: url('../images/dublin-city.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#fixtures div {
+    color: #fafafa;
+    background-color: red;
+    width: 20%;
+    height: 200px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#fixtures h2 {
+    color: #fafafa;
+}
+
   
   /* Form */
 
