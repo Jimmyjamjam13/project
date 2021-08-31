@@ -95,24 +95,17 @@ right: 150px;
 position: absolute;
 }
 
-/* team table and text */
-
-#table {
-    text-align: center;
-    color: black;
-    margin: 0 auto;
-    padding: 50px 0 70px 30px;
-}
+/* Current event section */
 
 #table-heading {
-    width: 700px;
-    height: 200px;
+    width:  550px;
+    height: 125px;
     bottom: 30px;
     right: 150px;
     position: absolute;
 }
 #team-table {
-    margin: 0 0 0 1000px;
+    margin: 0 auto ;
     width: 40%;
 }
 
@@ -123,6 +116,36 @@ table, td, tr {
   
   tr:hover {background-color: red;}
 
+  #announcements {
+    height: 600px;
+}
+
+#left-top {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.top-heading {
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    size: 50%;
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
 
   #fixtures {
     background-image: url('../images/dublin-city.webp');
@@ -200,7 +223,7 @@ table, td, tr {
 
 
 
-ooter {
+footer {
     height: 150px;
 }
 
